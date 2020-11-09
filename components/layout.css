@@ -1,0 +1,93 @@
+/* nunito-600 - latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/nunito-v14-latin-600.eot'); /* IE9 Compat Modes */
+  src: local('Nunito SemiBold'), local('Nunito-SemiBold'),
+    url('/fonts/nunito-v14-latin-600.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('/fonts/nunito-v14-latin-600.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('/fonts/nunito-v14-latin-600.woff')
+      format('woff'),
+    /* Modern Browsers */ url('/fonts/nunito-v14-latin-600.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('/fonts/nunito-v14-latin-600.svg#Nunito')
+      format('svg'); /* Legacy iOS */
+}
+
+:root {
+  --gutter-width: 2vw;
+  --px: 5vw;
+  --max-width: 2100px;
+}
+
+html {
+  min-height: 1vw;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-size: clamp(12px, 7px + 2vw, 24px);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  line-height: 1.16;
+  background-color: #8f8f76;
+  /* background-color: #a8ac6e; */
+  /* background-color: #b93b3b; */
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+address {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+}
+
+button {
+  outline: none;
+  border: none;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 48em) {
+  /* medium viewport >= 768 */
+  :root {
+    --gutter-width: 1.5vw;
+    --px: calc(8px + 3vw);
+  }
+  html {
+    font-size: clamp(16px, 10px + 1vw, 22px);
+  }
+}
+
+@media screen and (min-width: 62em) {
+  /* large viewport >= 992 */
+  :root {
+    --gutter-width: 2vw;
+    --px: calc(18px + 3vw);
+  }
+  html {
+    font-size: clamp(16px, 9px + 0.7vw, 23px);
+  }
+}
