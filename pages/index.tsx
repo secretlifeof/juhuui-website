@@ -4,7 +4,7 @@ import { Flex, Box, Icon } from 'juhuui'
 import { ContainerOuter, Button } from '../styles'
 
 const IndexPage = () => (
-  <Layout title="JuhuUI">
+  <Layout title="JuhuUi">
     <Flex
       css={{
         fontSize: '10rem',
