@@ -1,9 +1,10 @@
+// @ts-nocheck
 import { extractCss } from 'juhuui'
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 import React from 'react'
 
 export default class MyDocument extends Document {
-  static async getInitialProps({ renderPage }) {
+  static async getInitialProps({ renderPage }: any) {
     const page = renderPage()
 
     const { css, data } = extractCss()

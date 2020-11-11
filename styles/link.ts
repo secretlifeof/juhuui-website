@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Box, css, Link as JLink } from 'juhuui'
 
 export const Link = JLink.with()

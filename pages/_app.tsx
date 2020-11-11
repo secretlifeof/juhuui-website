@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { setup } from 'juhuui'
 import { createElement, forwardRef } from 'react'
 import type { AppProps } from 'next/app'

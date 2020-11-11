@@ -45,7 +45,7 @@ export const GridHalfFull = Box.with(
 )
 
 export const GridMc12Dc3c9 = Box.with(
-  ({ first = false, second = false }: { first: boolean }) => ({
+  ({ first = false, second = false }: { first: boolean; second: boolean }) => ({
     column: [
       '1/span 12',
       null,

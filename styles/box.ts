@@ -11,7 +11,7 @@ export const ContainerOuter = Box.with({
   pb: ['16', null, '32'],
 })
 
-export const Animated = Box.with({ as: a.div })
+export const Animated = Box.as(a.div).with()
 export const AnimatedContainerOuter = ContainerOuter.with({ as: a.div })
 
 export const Bright = Box.with({ bg: 'juhu.bgBright' })
@@ -21,6 +21,6 @@ export const Dark = Box.with({ bg: 'juhu.bgInverted' })
 export const MainContent = Box.with({
   position: 'relative',
   bg: 'juhu.bgBright',
-  zIndex: '2',
+  zIndex: 2,
   borderTop: '1px solid juhu.lineBg',
 })

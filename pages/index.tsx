@@ -1,7 +1,7 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import Layout from '../components/Layout'
 import { Flex, Box, Icon } from 'juhuui'
-import { ContainerOuter, Button } from '../styles'
+import { Button } from '../styles'
 
 const IndexPage = () => (
   <Layout title="JuhuUi">

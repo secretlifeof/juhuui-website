@@ -6,7 +6,7 @@ export const Button = Box.as('a').with({
   border: '3px solid juhu.borderPang',
   c: 'juhu.text',
   '&:hover': {
-    bg: 'juhu.bgInverted',
+    backgroundColor: 'juhu.bgInverted',
   },
   '&:active': {
     transform: 'scale(0.96)',
